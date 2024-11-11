@@ -1,0 +1,602 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ /*---- navigation ---*/
+.nav_1 {
+   height: 30px;
+
+   background-color: #77A096;
+
+   display: flex;
+   justify-content: space-between;
+}
+
+.X_nav_1 {
+   display: flex;
+   font-size: 14px;
+   margin-left: 120px;
+   margin-top: 5px;
+   color: aliceblue;
+   align-items: center;
+}
+
+.Y_nav_1 {
+   align-items: center;
+   margin-right: 5rem;
+   margin-top: 5px;
+   padding-left: 2px;
+   color: aliceblue;
+
+}
+
+.social {
+   margin-left: 10px;
+}
+
+.nav_2 {
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   border: 1px solid black;
+}
+
+.nav_3 {
+   display: flex;
+   justify-content: center;
+   cursor: pointer;
+}
+
+.X_nav_3 {
+   margin: 20px;
+   list-style: none;
+   display: flex;
+   text-decoration: none;
+   /* justify-content: center; */
+
+}
+
+.bold {
+   font-size: larger;
+}
+
+.X_nav_3 :hover {
+   color: rgba(129, 205, 154, 0.742);
+   text-decoration: underline;
+
+}
+
+
+li {
+   justify-content: center;
+   width: 8em;
+}
+
+ul:hover {
+   color: #77A096;
+
+}
+
+.Y_nav_3 {
+   padding: 10px;
+   margin: 2px;
+   margin-left: 20px;
+   margin-top: 10px;
+
+}
+
+.search {
+   margin-left: 5px;
+}
+
+.container {
+   /* width: 100px; */
+   /* position: absolute; */
+   margin-bottom: 220px;
+}
+
+.front {
+   width: 1515px;
+}
+
+.jan {
+   font-size: 19px;
+}
+.butto{
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
+   cursor: pointer;
+   background-color: #fff;
+   transition: 0.2s linear;
+}
+.butto:hover{
+   background-color: #156d7e;
+}
+
+.layer1 {
+   transform: translate(-50%);
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   text-align: center;
+   font-size: 48px;
+   color: azure;
+}
+
+
+.container-1 {
+   margin-bottom: 150px;
+   display: flex;
+   justify-content: space-evenly;
+   position: relative;
+   margin: 100px;
+
+}
+
+.container-1 img {
+   justify-content: center;
+   height: 230px;
+
+
+}
+
+.border {
+   position: absolute;
+   top: 10%;
+   left: 6%;
+   right: 8%;
+   border: 2px solid rgb(255, 255, 255);
+   background-color: rgba(81, 76, 76, 0.1);
+   width: 316px;
+   height: 175px;
+}
+
+.border :hover {
+   transform: scale(0.8);
+   transition: transform 0.3s ease-in-out;
+   cursor: pointer;
+}
+
+.borde {
+   position: absolute;
+   top: 10%;
+   left: 38%;
+   right: 8%;
+   border: 2px solid rgb(255, 255, 255);
+   background-color: rgba(81, 76, 76, 0.1);
+   width: 316px;
+   height: 175px;
+}
+.borde :hover {
+   transform: scale(0.8);
+   transition: transform 0.3s ease-in-out;
+   cursor: pointer;
+}
+
+.bord {
+   position: absolute;
+   top: 10%;
+   left: 70%;
+   right: 8%;
+   border: 2px solid rgb(255, 255, 255);
+   background-color: rgba(81, 76, 76, 0.1);
+   width: 316px;
+   height: 175px;
+}
+.bord :hover {
+   transform: scale(0.8);
+   transition: transform 0.3s ease-in-out;
+   cursor: pointer;
+}
+
+.mid1 {
+   justify-content: center;
+   text-align: center;
+   color: whitesmoke;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 30px;
+   font-weight: 600;
+   position: relative;
+   top: 55px;
+}
+
+.container_2 {
+   display: flex;
+}
+
+
+.section_3 .good {
+   height: 300px;
+   width: 40px;
+   display: flex;
+}
+
+.img1 {
+   width: 450;
+   height: 480px;
+   object-fit: cover;
+}
+
+
+.good {
+   margin-left: 140px;
+   margin-right: 40px;
+   /* border-right:1px solid black ; */
+   padding-right: 20px;
+
+}
+
+.middle {
+   display: flex;
+   margin-right: 90px;
+   margin-top: 170px;
+}
+
+.side {
+   text-align: center;
+   margin-right: 40px;
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+}
+
+.pandu1 {
+   font-family: serif;
+   font-size: 20px;
+   font-weight: 100;
+   margin: 20px;
+}
+
+.pandu2 {
+   font-size: 17px;
+   text-align: center;
+   padding: 30px;
+}
+
+.md1 {
+   margin-top: 40px;
+
+}
+
+
+
+.down_side {
+   width: 850px;
+   align-items: center;
+
+   text-align: center;
+   border-bottom: 1px solid black;
+
+}
+
+.p1 {
+   margin-top: 20px;
+   margin-bottom: 12px;
+   font-size: 20px;
+   font-family: sans-serif;
+   color: #707070;
+}
+
+.p2 {
+   margin-top: 10px;
+   font-size: 35px;
+   font-family: sarif;
+   color: #1D1D1D;
+}
+
+.p3 {
+   margin-top: 20px;
+   font-size: 25px;
+   font-family: sans-serif;
+   color: #707070;
+
+}
+
+.p4 {
+   font-size: 21px;
+   margin-top: 50px;
+   color: #707070;
+   cursor: pointer;
+   margin-bottom: 50px;
+}
+
+.so {
+   margin-top: 50px;
+}
+
+.categories2 {
+   margin-top: 20px;
+   border-top: 1px solid black;
+   padding: 40px;
+   text-align: center;
+   margin: 30px;
+
+}
+
+.beauty7 {
+   font-size: large;
+   text-decoration: none;
+   padding: 30px;
+   color: rgb(154, 206, 244);
+
+}
+
+.beauty7:hover {
+   color: #3b7567;
+}
+
+.h {
+   font-size: 20px;
+   margin: 30px;
+}
+
+.popular {
+   border-top: 1px solid black;
+   margin-bottom: 60px;
+}
+
+.pp {
+   margin: 15px;
+}
+
+.travel_aside {
+   text-align: center;
+   font-size: 15px;
+   color: #707070;
+}
+
+.three {
+   font-size: 20px;
+   font-style: italic;
+   margin: 10px;
+   padding: 10px;
+   text-wrap: nowrap;
+
+}
+
+.subs {
+   border-top: 1px solid black;
+   margin-bottom: 1px solid black;
+
+   margin-bottom: 60px;
+}
+
+.recv {
+   text-align: center;
+   font-size: 20px;
+   margin: 20px;
+   color: #707070;
+}
+
+.input {
+   /* margin: 16px; */
+   /* padding: 10px; */
+   height: 50px;
+   width: 250px;
+   border-radius: 25px;
+   text-align: center;
+}
+
+.fa-telegram {
+   color: #53c9ab;
+
+}
+
+.archive {
+   border-top: 1px solid black;
+   margin: 60px;
+   /* display: flex; */
+}
+
+.arch {
+   /* padding-top: 20px; */
+}
+
+
+/* fixed */
+.child {
+   background-color: rgb(73, 37, 251);
+   color: white;
+   width: 8vw;
+   height: 8vh;
+   border-radius: 25px;
+   padding-top: 5px;
+   border: 5px solid rgb(154, 146, 146);
+   position: fixed;
+   right: 9px;
+   bottom: 15px;
+   cursor: pointer;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+
+.insta {
+   /* display: flex; */
+   margin-top: 200px;
+}
+
+.instagram {
+   text-align: center;
+}
+
+.follow {
+   font-family: serif;
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+
+.sonu {
+   font-family: sans-serif;
+   font-size: 16px;
+   text-decoration: none;
+   color: gray;
+}
+
+.sonu :hover {
+   color: #53c9ab;
+}
+
+.insta_photo {
+   display: flex;
+  border: 1px solid black;
+   justify-content: space-evenly;
+   margin: 50px;
+   align-items: center;
+  
+}
+
+.waterfall {
+   height: 15rem;
+}
+
+.bagpack {
+   height: 15rem;
+}
+
+.sea {
+   height: 15rem;
+}
+
+.girl {
+   height: 15rem;
+}
+/* .friends{
+   height: 15rem;
+
+} */
+
+.foot {
+   display: flex;
+   margin-top: 2rem;
+   margin: 200px;
+}
+
+.link {
+   
+   padding-right: 50px;
+   text-align: center;
+
+}
+.link-1{
+   color: rgb(154, 206, 244);
+   text-decoration: none;
+}
+
+.link-1:hover {
+   color: #77A096;
+
+}
+
+.logo_mi {
+   justify-content: center;
+   margin-bottom: 15px;
+
+}
+
+.link h4 {
+   font-size: large;
+   font-family: "Mulish", sans-serif;
+   margin-bottom: 20px;
+}
+
+.travel {
+   border-left: 1px solid black;
+   padding-left: 50px;
+   padding-right: 50px;
+   margin-left: 56px;
+   border-right: 1px solid black;
+   text-align: center;
+
+}
+
+.travel_x {
+   text-align: center;
+   margin-bottom: 1.5rem;
+   font-size: 19px;
+   color: rgb(107, 104, 104);
+   font-family: serif;
+   font-stretch: extra-expanded;
+}
+
+.travel_y {
+   cursor: pointer;
+}
+
+.travel_y:hover {
+   color: #77A096;
+}
+
+.categories {
+   padding-left: 60px;
+   text-align: center;
+
+}
+
+.photoz {
+   /* margin-bottom: 12px; */
+   text-decoration: none;
+   color: rgb(154, 206, 244);
+}
+
+.enet {
+   text-decoration: none;
+   color: rgb(154, 206, 244);
+}
+
+.bea {
+   text-decoration: none;
+   color: rgb(154, 206, 244);
+}
+
+.life {
+   text-decoration: none;
+   color: rgb(154, 206, 244);
+}
+
+.trac {
+   color: rgb(154, 206, 244);
+   text-decoration: none;
+}
+
+.photoz:hover {
+   color: #77A096;
+}
+
+.enet:hover {
+   color: #77A096;
+}
+
+.bea:hover {
+   color: #77A096;
+}
+
+.bea:hover {
+   color: #77A096;
+}
+
+.life:hover {
+   color: #77A096;
+}
+
+.trac:hover {
+   color: #77A096;
+}
+
+.C {
+
+   margin-bottom: 15px;
+   font-size: large;
+   font-family: "Mulish", sans-serif;
+}
+
+.copyright {
+   text-align: center;
+   font-size: 15px;
+   margin-bottom: 20px;
+   font-family: sans-serif;
+   font-weight: 10;
+}
